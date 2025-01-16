@@ -8,6 +8,7 @@
 <body>
         <?php
             //var
+            // tes rek
             $totalProyek = 4;
             //$totalGaji
             //$gajiBersih
