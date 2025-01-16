@@ -17,15 +17,13 @@
             define('pajak', 0.12);
             define('bonus', 500000);
 
-            $proyek *= bonus;
-            $totalGaji = gaji + $proyek;
+            $totalProyek *= bonus;
+            $totalGaji = pokokGaji + $totalProyek;
             $gajiBersih = $totalGaji - ($totalGaji * pajak);
 
-            echo "Bonus anda sebesar $proyek <br/>";
-            echo "Gaji bersih yang anda dapatkan sebesar $gajiBersih <br/>";
+            echo "Bonus anda sebesar $totalProyek <br/>";
             echo "Total gaji anda setelah mendapatkan bonus adalah $totalGaji <br/>";
-
-        
+            echo "Gaji bersih yang anda dapatkan sebesar $gajiBersih <br/>";
         ?>    
 </body>
 </html>
