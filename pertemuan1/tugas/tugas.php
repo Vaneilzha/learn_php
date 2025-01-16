@@ -22,8 +22,8 @@
             $gajiBersih = $totalGaji - ($totalGaji * pajak);
 
             echo "Bonus anda sebesar $proyek <br/>";
-            echo "Gaji bersih anda sebesar $gajiBersih <br/>";
-            echo "Total gaji anda setelah mendapatkan bonus $totalGaji <br/>";
+            echo "Gaji bersih yang anda dapatkan sebesar $gajiBersih <br/>";
+            echo "Total gaji anda setelah mendapatkan bonus adalah $totalGaji <br/>";
 
         
         ?>    
