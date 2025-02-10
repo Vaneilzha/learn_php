@@ -2,19 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>FORM SISWA SMKN 1 BANYUWANGI</h1>
-    <form action="data.php" method="POST">
-        <p>Silahkan isi biodata berikut!</p>
-        NISN : <input type="number" name="nisn"> <br>
+<h1>FORM SISWA SMKN 1 BANYUWANGI</h1>
+    <form action="proses.php" method="POST">
+    
+    <tr>
+        <td>Silahkan isi biodata berikut!</p>
+        <label></label>NISN : <input type="number" name="nisn"> <br>
+    </tr>
+
         Nama Lengkap : <input type="text" name="nama lengkap"> <br>
         Tempat Lahir : <input type="text" name="tempat lahir"> <br>
         
         <p>
             <label>Tanggal Lahir :</label>
+                <td>
+                   <? $_POST{'tanggal'}
+                <td>
             <input type="date" name="tanggal">
         </p>
 
@@ -117,6 +124,6 @@
             <input type="submit" name="submit" value="Daftar">
         </p>
 
-    </form>
+</form>
 </body>
 </html>
