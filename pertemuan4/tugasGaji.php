@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,9 +15,12 @@
 
         <p>
             <label>Apakah anda memiliki NPWP :</label>
-            <input type="checkbox" name="Iya">
-            <input type="checkbox" name="tidak">
+            <input type="radio" name="npwp" value="Iya">Iya
+            <input type="radio" name="npwp" value="tidak">Tidak
         </p>
         
+        <p>
+            <input type="submit" name="submit" value="KIRIM">
+        </p>
 </body>
 </html>
